@@ -160,4 +160,8 @@ for epoch in range(num_epoch):
     save_image(fake_images, './dc_img/fake_images-{}.png'.format(epoch + 1))
 
 torch.save(G.state_dict(), './generator.pth')
+<<<<<<< HEAD
 torch.save(D.state_dict(), './discriminator.pth')
+=======
+torch.save(D.state_dict(), './discriminator.pth')
+>>>>>>> 5394d499b1b2302993669f611184324282f4120e
